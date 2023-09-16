@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "target": "ES2022",
+        "verbatimModuleSyntax": true,
+        "allowJs": true,
+        "moduleDetection": "force",
+        "strict": true
+    },
+    "include": ["src/custom.d.ts", "src/*", "src/**/*"]
+}
