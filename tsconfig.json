@@ -5,9 +5,9 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "target": "ES2022",
-        "verbatimModuleSyntax": true,
         "allowJs": true,
-        "moduleDetection": "force",
+        "module": "esnext",
+        "moduleResolution": "node",
         "strict": true
     },
     "include": ["src/custom.d.ts", "src/*", "src/**/*"]
